@@ -12,6 +12,11 @@
 .CodeMirror .cm-dk-whitespace-trailing-space:before,
 .CodeMirror .cm-dk-whitespace-trailing-tab:before { background-color: <%= light.trailing %>; }
 
+.CodeMirror .cm-dk-whitespace-zenkaku:before { border: solid 1px <%= light.whitespace %>; }
+.CodeMirror .cm-dk-whitespace-leading-zenkaku:before { border: solid 1px <%= light.leading %>; }
+.CodeMirror .cm-dk-whitespace-empty-line-zenkaku:before { border: solid 1px <%= light.empty %>; }
+.CodeMirror .cm-dk-whitespace-trailing-zenkaku:before { border: solid 1px <%= light.trailing %>; }
+
 /* Dark theme */
 .dark .CodeMirror .cm-dk-whitespace-space:before,
 .dark .CodeMirror .cm-dk-whitespace-tab:before { background-color: <%= dark.whitespace %>; }
@@ -21,3 +26,8 @@
 .dark .CodeMirror .cm-dk-whitespace-empty-line-tab:before { background-color: <%= dark.empty %>; }
 .dark .CodeMirror .cm-dk-whitespace-trailing-space:before,
 .dark .CodeMirror .cm-dk-whitespace-trailing-tab:before { background-color: <%= dark.trailing %>; }
+
+.dark .CodeMirror .cm-dk-whitespace-zenkaku:before { border: solid 1px <%= light.whitespace %>; }
+.dark .CodeMirror .cm-dk-whitespace-leading-zenkaku:before { border: solid 1px <%= light.leading %>; }
+.dark .CodeMirror .cm-dk-whitespace-empty-line-zenkaku:before { border: solid 1px <%= light.empty %>; }
+.dark .CodeMirror .cm-dk-whitespace-trailing-zenkaku:before { border: solid 1px <%= light.trailing %>; }

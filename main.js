@@ -50,13 +50,13 @@ define(function (require, exports, module) {
         checked: true,
         colors: {
             "light": {
-                "empty": "#ccc",
+                "empty": "#FFD3FF",
                 "leading": "#ccc",
                 "trailing": "#ff0000",
                 "whitespace": "#ccc"
             },
             "dark": {
-                "empty": "#686963",
+                "empty": "#FFD3FF",
                 "leading": "#686963",
                 "trailing": "#ff0000",
                 "whitespace": "#686963"
@@ -102,20 +102,25 @@ define(function (require, exports, module) {
                     _isEmptyLine = false;
                     
                     _trailingOffset = stream.string.length;
-                    trailing = stream.string.match(/[ \t]+$/);
+                    trailing = stream.string.match(/[ \t　]+$/);
                     if (trailing) {
                         _trailingOffset -= trailing[0].length;
-                        // Everything is whitespace
+	                    // Everything is whitespace
                         if (_trailingOffset === 0) {
                             _isEmptyLine = true;
                         }
                     }
+
+/*
+                    // Everything is whitespace
+                    if (stream.string.match(/^[ \t　]$+/)) {_isEmptyLine = true; }
+*/
                 }
                 
                 // Peek ahead one character at a time
                 // Wrapping the assignment in a Boolean makes JSLint happy
                 while (Boolean(ch = stream.peek())) {
-                    if (ch === " " || ch === "\t") {
+                    if (ch === " " || ch === "\t" || ch === "　") {
                         if (ateCode) {
                             // Return now to mark all code seen so far as not necessary to highlight
                             return null;
@@ -137,7 +142,7 @@ define(function (require, exports, module) {
                         
                         tokenStyle  += "dk-whitespace-";
                         tokenStyle  += (_isEmptyLine ? "empty-line-" : (_isLeading ? "leading-" : (_isTrailing ? "trailing-" : "")));
-                        tokenStyle  += (ch === " " ? "space" : "tab");
+                        tokenStyle  += (ch === " " ? "space" : (ch === "　" ? "zenkaku" : "tab"));
                         tokenStyle  += (_appendSpace ? " " : "");
                         
                         return tokenStyle;

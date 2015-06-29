@@ -1,6 +1,11 @@
-# Show Whitespace
+# Show Whitespace Japanese Compatible
+
 
 > A [Brackets](http://brackets.io/) extension to visualize whitespace (both spaces and tabs) in the same style as [Sublime Text](http://www.sublimetext.com/).
+
+This extension is a modification of Brackets Show Whitespace (https://github.com/DennisKehrig/brackets-show-whitespace/) by Dennis Kehrig.
+
+This modification displays 2-byte full width (*Zenkaku*) spaces. The menu string is translated into Japanese.
 
 ## Usage
 
