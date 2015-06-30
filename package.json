@@ -1,17 +1,21 @@
 {
-    "name": "dkehrig.show-whitespace",
-    "title": "Show Whitespace",
-    "description": "Visualize whitespace (both spaces and tabs) in the same style as Sublime Text.",
-    "homepage": "https://github.com/DennisKehrig/brackets-show-whitespace",
-    "version": "2.1.0",
-    "author": "Dennis Kehrig <mailgithub@denniskehrig.de> (https://github.com/DennisKehrig)",
-    "contributors": [
-        "Lance Campbell <lkcampbell@gmail.com> (https://github.com/lkcampbell)"
-    ],
+    "name": "in3etween.show-whitespace-ja",
+    "title": "Show Whitespace Japanese",
+    "description": "Visualize whitespaces, modified to show Japanese 2-byte Spaces",
+    "homepage": "https://github.com/in3etween/brackets-show-whitespace-Japanese/",
+    "version": "0.1.0",
+    "author": "zoomSK (https://github.com/zoomSK)",
     "license": "MIT",
     "engines": { "brackets": ">=1.1.0" },
     "i18n": [
         "fi",
-        "en"
-    ]
+        "en",
+        "ja"
+    ],
+    "package-i18n": {
+        "ja":{
+            "title": "全角空白・スペース・タブ表示"
+            "description": "Brackets Show Whitespaceを元に全角空白、スペース、タブを表示出来るようにしたエクステンションです。"
+        }
+    }
 }

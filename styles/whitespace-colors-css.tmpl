@@ -1,5 +1,6 @@
 /*
- * dkehrig.show-whitespace whitespace colors template.
+ * in3etween.show-whitespace-ja whitespace colors template.
+ * 空白カラーテンプレート
  */
 
 /* Light theme */
@@ -12,6 +13,7 @@
 .CodeMirror .cm-dk-whitespace-trailing-space:before,
 .CodeMirror .cm-dk-whitespace-trailing-tab:before { background-color: <%= light.trailing %>; }
 
+/* Light theme全角スペース */
 .CodeMirror .cm-dk-whitespace-zenkaku:before { border: solid 1px <%= light.whitespace %>; }
 .CodeMirror .cm-dk-whitespace-leading-zenkaku:before { border: solid 1px <%= light.leading %>; }
 .CodeMirror .cm-dk-whitespace-empty-line-zenkaku:before { border: solid 1px <%= light.empty %>; }
@@ -27,6 +29,7 @@
 .dark .CodeMirror .cm-dk-whitespace-trailing-space:before,
 .dark .CodeMirror .cm-dk-whitespace-trailing-tab:before { background-color: <%= dark.trailing %>; }
 
+/* Dark theme全角スペース */
 .dark .CodeMirror .cm-dk-whitespace-zenkaku:before { border: solid 1px <%= light.whitespace %>; }
 .dark .CodeMirror .cm-dk-whitespace-leading-zenkaku:before { border: solid 1px <%= light.leading %>; }
 .dark .CodeMirror .cm-dk-whitespace-empty-line-zenkaku:before { border: solid 1px <%= light.empty %>; }
