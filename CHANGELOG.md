@@ -1,5 +1,16 @@
 # Changelog
+##v0．1．0
+* **Requires Brackets 1.1 or higher**
+* Modified to Show Japanese 2-byte spaces
+* Japanese Localization Added
+* Changed default colors for empty lines
+* **動作環境:Brackets 1.1以上**
+* 全角空白を四角で表示されるように変更
+* メニュー項目を日本語化
+* 空白のみの行のデフォルトカラーを変更
 
+
+**Below is the Changelog of the original "Show Whitespace" by [Dennis Kehrig](https://github.com/DennisKehrig)**
 ## v2.1.0 - Unreleased
 
 * **Requires Brackets 1.1 or higher**
