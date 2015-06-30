@@ -14,7 +14,7 @@
     ],
     "package-i18n": {
         "ja":{
-            "title": "全角空白・スペース・タブ表示"
+            "title": "全角空白・スペース・タブ表示",
             "description": "Brackets Show Whitespaceを元に全角空白、スペース、タブを表示出来るようにしたエクステンションです。"
         }
     }
