@@ -20,7 +20,7 @@
 * `.cm-dk-whitespace-empty-line-space`: 空白のみを含む行
 * `.cm-dk-whitespace-trailing-space`: 空白以外の文字があり、空白で終わる行の空白
 
-エクステンションの基本的なレイアウトは`styles/main.less`で定義されていて使用時にCSSにコンパイルされます。空白の色はBrackets環境設定で定義されたものから`styles/whitespace-colors-css.tmpl`にあるものに取り込まれます。両ファイルともBrackets起動時に読み込まれます。
+エクステンションの基本的なレイアウトは`styles/main.less`で定義されていて使用時にCSSにコンパイルされます。空白の色はBracketsの環境設定ファイルで定義され、`styles/whitespace-colors-css.tmpl`のものが書き込まれます。両ファイルともBrackets起動時に読み込まれます。
 
 ## インストール方法
 
