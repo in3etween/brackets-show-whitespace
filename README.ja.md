@@ -1,10 +1,9 @@
 [English](https://github.com/in3etween/brackets-show-whitespace-Japanese/blob/JapaneseCompatible/README.md) / Japanese・日本語
-# Brackets空白表示エクステンション(全角スペース対応)
+# Brackets空白表示エクステンション  (全角スペース対応版)
 
 > [Brackets](http://brackets.io/)で空白を[Sublime Text](http://www.sublimetext.com/)風に表示するエクステンションの日本語全角スペース対応版です。
 
 このエクステンションはDennis Kehrig氏の[Brackets Show Whitespace](https://github.com/DennisKehrig/brackets-show-whitespace/)を改良したものです。
-
 全角スペースを四角として表示します。また、メニュー項目も日本語にローカライズしています。
 
 ## 使用方法
@@ -24,7 +23,7 @@
 
 ## インストール方法
 
-~方法1: Bracketsの拡張起動マネージャーを開いて"show whitespace Japanese"で検索してください。~*実装予定*
+~~方法1: Bracketsの拡張起動マネージャーを開いて"show whitespace Japanese"で検索してください。~~*実装予定*
 
 方法2: Githubから[最新版](https://github.com/in3etween/brackets-show-whitespace-Japanese/archive/JapaneseCompatible.zip)をダウンロードし、`.zip`ファイルをそのままBracketsの拡張機能マネージャーの ".zipをここにドラッグ"にドラッグしてください。また、"URLからインストール"リンクからインストールできます。
 
