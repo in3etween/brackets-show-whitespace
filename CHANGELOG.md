@@ -1,4 +1,11 @@
 # Changelog
+##v1．0．0
+* **Requires Brackets 1.1 or higher**
+* 全角表示の修正
+* Brackets Extention Libraryに登録
+* **動作環境:Brackets 1.1以上**
+* Modified Zenkaku Space styling
+* Registered to Brackets Extension Library
 ##v0．1．0
 * **Requires Brackets 1.1 or higher**
 * Modified to Show Japanese 2-byte spaces

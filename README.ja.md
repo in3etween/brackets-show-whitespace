@@ -30,6 +30,7 @@
 ## 既知の問題
 
 * CodeMirrorオーバーレイによってスクロール時や入力時にエディタが重くなる場合があります。重すぎると感じたらエクステンションを無効にすると改善する可能性があります。
+* [Indent Guides](https://github.com/lkcampbell/brackets-indent-guides)と併用したときにインデントガイドと一致しない場合があります。
 
 ## License
 
