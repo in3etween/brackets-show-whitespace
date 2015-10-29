@@ -134,12 +134,10 @@ define(function (require, exports, module) {
                         // This disables CodeMirror's string comparison while having no effect on the CSS class
                         // *changed in https://github.com/marijnh/CodeMirror/commit/221a1e4070d503f4597f7823e4f2cf68ba884cdf
                         _appendSpace = !_appendSpace;
-
                         tokenStyle += "dk-whitespace-";
                         tokenStyle += (_isEmptyLine ? "empty-line-" : (_isLeading ? "leading-" : (_isTrailing ? "trailing-" : "")));
                         tokenStyle += (ch === " " ? "space" : (ch === "　" ? "zenkaku" : "tab"));
                         tokenStyle += (_appendSpace ? " " : "");
-
                         return tokenStyle;
                     } else {
                         stream.next();
