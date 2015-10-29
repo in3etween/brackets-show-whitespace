@@ -24,7 +24,7 @@ The primary extension styling is defined in `styles/main.less`, which is compile
 
 ## Install
 
-~~Method 1: Open the Brackets Extension Manager and search for "show whitespace Japanese"~~*To be implemented soon*
+Method 1: Open the Brackets Extension Manager and search for "show whitespace Japanese"
 
 Method 2: Download the [latest revision](https://github.com/in3etween/brackets-show-whitespace-Japanese/archive/JapaneseCompatible.zip) in `.zip` archive directly from GitHub and drag it onto the "Drag .zip here" area in the Extension Manager. Alternatively, use the "Install from URL..." link also in the Extension Manager.
 
