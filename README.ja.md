@@ -23,7 +23,7 @@
 
 ## インストール方法
 
-~~方法1: Bracketsの拡張起動マネージャーを開いて"show whitespace Japanese"で検索してください。~~*実装予定*
+方法1: Bracketsの拡張起動マネージャーを開いて"show whitespace Japanese"で検索してください。
 
 方法2: Githubから[最新版](https://github.com/in3etween/brackets-show-whitespace-Japanese/archive/JapaneseCompatible.zip)をダウンロードし、`.zip`ファイルをそのままBracketsの拡張機能マネージャーの ".zipをここにドラッグ"にドラッグしてください。また、"URLからインストール"リンクからインストールできます。
 
