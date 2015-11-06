@@ -1,5 +1,9 @@
 # Changelog
-##v1．0．0
+##v1．0．1
+* **動作環境:Brackets 1.1以上**
+* Readmeの修正, 他周辺ファイル修正
+* **Requires Brackets 1.1 or higher**
+* Fixed Readme File, Other Minor Fixes
 * **Requires Brackets 1.1 or higher**
 * 全角表示の修正
 * Brackets Extention Libraryに登録
