@@ -1,4 +1,6 @@
 # Changelog
+##v1.0.2
+* Readmeの修正
 ##v1.0.1
 * **動作環境:Brackets 1.1以上**
 * Readmeの修正, 他周辺ファイル修正
