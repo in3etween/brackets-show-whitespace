@@ -3,7 +3,7 @@
     "title": "Show Whitespace Japanese",
     "description": "Visualize whitespaces, modified to show Japanese 2-byte Spaces",
     "homepage": "https://github.com/in3etween/brackets-show-whitespace-Japanese/",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "zoomSK (https://github.com/zoomSK)",
     "license": "MIT",
     "engines": { "brackets": ">=1.1.0" },
