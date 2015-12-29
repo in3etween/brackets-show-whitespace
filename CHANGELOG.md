@@ -1,6 +1,7 @@
 # Changelog
 ##v1.0.2
 * Readmeの修正
+
 ##v1.0.1
 * **動作環境:Brackets 1.1以上**
 * Readmeの修正, 他周辺ファイル修正
@@ -12,7 +13,8 @@
 * **動作環境:Brackets 1.1以上**
 * Modified Zenkaku Space styling
 * Registered to Brackets Extension Library
-##v0．1．0
+
+##v0.1.0
 * **Requires Brackets 1.1 or higher**
 * Modified to Show Japanese 2-byte spaces
 * Japanese Localization Added
