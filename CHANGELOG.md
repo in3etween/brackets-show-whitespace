@@ -1,4 +1,6 @@
 # Changelog
+##v1.0.3
+*Fixed CSS error not showing whitespace
 ##v1.0.2
 * Readmeの修正
 
